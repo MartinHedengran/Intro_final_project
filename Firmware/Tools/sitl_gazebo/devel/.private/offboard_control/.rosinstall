@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gazebo/Firmware/Tools/sitl_gazebo/devel/.private/offboard_control/setup.sh

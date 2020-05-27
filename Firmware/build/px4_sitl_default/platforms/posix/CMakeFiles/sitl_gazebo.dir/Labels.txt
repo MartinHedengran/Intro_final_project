@@ -1,0 +1,13 @@
+# Target labels
+ sitl_gazebo
+# Source files and their labels
+/home/gazebo/Firmware/build/px4_sitl_default/platforms/posix/CMakeFiles/sitl_gazebo
+/home/gazebo/Firmware/build/px4_sitl_default/platforms/posix/CMakeFiles/sitl_gazebo.rule
+/home/gazebo/Firmware/build/px4_sitl_default/platforms/posix/CMakeFiles/sitl_gazebo-complete.rule
+/home/gazebo/Firmware/build/px4_sitl_default/external/Stamp/sitl_gazebo/sitl_gazebo-install.rule
+/home/gazebo/Firmware/build/px4_sitl_default/external/Stamp/sitl_gazebo/sitl_gazebo-mkdir.rule
+/home/gazebo/Firmware/build/px4_sitl_default/external/Stamp/sitl_gazebo/sitl_gazebo-download.rule
+/home/gazebo/Firmware/build/px4_sitl_default/external/Stamp/sitl_gazebo/sitl_gazebo-update.rule
+/home/gazebo/Firmware/build/px4_sitl_default/external/Stamp/sitl_gazebo/sitl_gazebo-patch.rule
+/home/gazebo/Firmware/build/px4_sitl_default/external/Stamp/sitl_gazebo/sitl_gazebo-configure.rule
+/home/gazebo/Firmware/build/px4_sitl_default/external/Stamp/sitl_gazebo/sitl_gazebo-build.rule

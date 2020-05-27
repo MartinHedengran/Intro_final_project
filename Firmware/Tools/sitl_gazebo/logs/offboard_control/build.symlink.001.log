@@ -1,0 +1,4 @@
+Linked: (/home/gazebo/Firmware/Tools/sitl_gazebo/devel/.private/offboard_control/share/offboard_control/cmake/offboard_controlConfig.cmake, /home/gazebo/Firmware/Tools/sitl_gazebo/devel/share/offboard_control/cmake/offboard_controlConfig.cmake)
+Linked: (/home/gazebo/Firmware/Tools/sitl_gazebo/devel/.private/offboard_control/share/offboard_control/cmake/offboard_controlConfig-version.cmake, /home/gazebo/Firmware/Tools/sitl_gazebo/devel/share/offboard_control/cmake/offboard_controlConfig-version.cmake)
+Symlinking /home/gazebo/Firmware/Tools/sitl_gazebo/devel/lib/offboard_control/offb_node
+Linked: (/home/gazebo/Firmware/Tools/sitl_gazebo/devel/.private/offboard_control/lib/pkgconfig/offboard_control.pc, /home/gazebo/Firmware/Tools/sitl_gazebo/devel/lib/pkgconfig/offboard_control.pc)

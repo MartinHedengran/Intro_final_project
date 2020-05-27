@@ -1,0 +1,160 @@
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target uuid_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target uuid_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_eus
+[  0%] Built target mavros_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_eus
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target uuid_msgs_generate_messages_eus
+[  0%] Built target geographic_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target uuid_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target offb_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/offb_node.dir/src/offb_node.cpp.o[0m
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe<sensor_msgs::Image>(const char [32])[m[K’
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:7[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gazebo/Firmware/Tools/sitl_gazebo/src/offboard_control/src/offb_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+             ("/iris_fpv_cam/usb_cam/image_raw"[01;36m[K)[m[K;
+                                               [01;36m[K^[m[K
+CMakeFiles/offb_node.dir/build.make:62: recipe for target 'CMakeFiles/offb_node.dir/src/offb_node.cpp.o' failed
+make[2]: *** [CMakeFiles/offb_node.dir/src/offb_node.cpp.o] Error 1
+CMakeFiles/Makefile2:1194: recipe for target 'CMakeFiles/offb_node.dir/all' failed
+make[1]: *** [CMakeFiles/offb_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
