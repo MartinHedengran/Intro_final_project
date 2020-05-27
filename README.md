@@ -14,14 +14,14 @@ To launch mavros run this code in terminal:
 ```shell
 roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 ```
-To launch week 19 solution we need to download ros workspace and download rosbag file and put in worksapce and run this in catkin space:
+To launch week 19 solution we need to download ros workspace and rosbag file and put in worksapce and in catkin space run this command:
 ```shell
 source devel/setup.bash
 rosbag play manual_flight_rosbag.bag
 rosrun mavlink_lora gcs_rosbag_data.py
 python outlier_simplification.py
 ```
-We got 14 waypoints and convert as format mission for QGroundControl and Upload it. Now exceute mission and in catkin sapce run this command:
+We got waypoints and convert as format mission for QGroundControl and Upload it. Now exceute mission and in catkin sapce run this command:
 
 ```shell
 rosrun mavlink_lora gcs_mission_recored.py
