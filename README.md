@@ -29,9 +29,6 @@ When you got waypoints and need to convert as format mission for QGroundControl 
 
 ```shell
 rosrun mavlink_lora gcs_mission_recored.py
-```
-After we recored new data we convert as format kml and run this command:
-```shell
 python Make_kml.py
 ```
 
