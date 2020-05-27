@@ -14,7 +14,11 @@ To launch mavros run this code in terminal:
 ```shell
 roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 ```
-To launch week 19 solution we need to download ros workspace and rosbag file and put in worksapce and in catkin space run this command:
+To launch week 19 solution we need to download ros workspace and rosbag file from b.b.After that download all this files which is located the path below put in worksapce:
+```shell
+Firmware/Tools/sitl_gazebo/src/mission_path/src
+```
+Open new terminal in catkin space run this command:
 ```shell
 source devel/setup.bash
 rosbag play manual_flight_rosbag.bag
