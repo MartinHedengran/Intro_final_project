@@ -1,5 +1,5 @@
 # Intro_final_project
-The following git is for solutions for week 20, 21 and week 22 of intro to dronetechnology course at SDU 2020
+The following git is for solutions for week 19, 20, 21 and week 22 of intro to dronetechnology course at SDU 2020
 
 Commands for the terminal:
 ```shell
@@ -14,6 +14,18 @@ To launch mavros run this code in terminal:
 ```shell
 roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 ```
+To launch week 19 solution we need to download ros workspace for mavlovlink and download rosbag file and put in worksapce and run this in catkin space:
+```shell
+source devel/setup.bash
+rosbag play manual_flight_rosbag.bag
+rosrun mavlink_lora gcs_rosbag_data.py
+
+
+
+
+python
+```
+
 
 To launch week 20 solution run these codes in different terminals:
 ```shell
